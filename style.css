@@ -1,0 +1,240 @@
+body {
+  width: 100%;
+  height: 982px;
+
+  background: snow;
+}
+
+header {
+  /* 要素を横並びにしてくれる */
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(112, 112, 112, 0.315);
+  z-index: 30;
+}
+
+.Portfolio {
+  position: fixed;
+  width: 157px;
+  height: 48px;
+  left: calc(100% - 92.7%);
+  top: 32px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #000000;
+}
+
+.works {
+  position: fixed;
+  width: 71px;
+  height: 12px;
+  left: 1065px;
+  top: 49px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.works:hover {
+  color: cornflowerblue;
+}
+
+.self-introduction {
+  position: fixed;
+  width: 71px;
+  height: 12px;
+  left: 1180px;
+  top: 49px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.self-introduction:hover {
+  color: cornflowerblue;
+}
+
+.contact {
+  position: fixed;
+  width: 107px;
+  height: 12px;
+  left: 1295px;
+  top: 49px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.contact:hover {
+  color: cornflowerblue;
+}
+
+/* .show-display-ja {
+  position: absolute;
+  width: 120px;
+  height: 11px;
+  left: 696px;
+  top: 124px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+} */
+
+.show-display-en {
+  position: absolute;
+  width: 260px;
+  height: 42px;
+  left: 633px;
+  top: 156px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* text-decoration-line: underline; */
+}
+
+.dream {
+  position: absolute;
+  width: 611px;
+  height: 137px;
+  left: calc(100% - 92.7%);
+  top: 270px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 51px;
+
+  color: #000000;
+}
+
+.name {
+  position: absolute;
+  width: 377px;
+  height: 41px;
+  left: calc(100% - 92.7%);
+  top: 444px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.detail {
+  position: absolute;
+  width: 597px;
+  height: 351px;
+  left: calc(100% - 92.7%);
+  top: 523px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.photo {
+  position: absolute;
+  width: calc(100% - 60.3%);
+  height: calc(100% - 38.9%);
+  right: calc(100% - 92.7%);
+  top: 274px;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.back-button {
+  position: absolute;
+  width: 70px;
+  height: 54px;
+  left: calc(100% - 46.9%);
+  top: 543px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  z-index: 12;
+}
+
+.next-button {
+  position: absolute;
+  width: 70px;
+  height: 54px;
+  left: calc(100% - 8.75%);
+  top: 543px;
+
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  z-index: 11;
+}
